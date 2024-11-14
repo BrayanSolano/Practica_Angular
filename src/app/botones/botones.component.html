@@ -1,0 +1,19 @@
+<!-- <button [disabled]="button_disabled"  class="btn btn-danger"(click)="text_color = 'text-danger'">Color Red</button>
+<button [disabled]="button_disabled"  class="btn btn-success mx-2"(click)="text_color = 'text-success'">Color Green</button>
+<button [disabled]="button_disabled"  class="btn btn-primary"(click)="text_color = 'text-primary'">Color blue</button>
+
+
+<p>Texto que va a cambiar de color</p>
+
+
+<button class="btn btn-secondary" (click)="button_disabled = !button_disabled">
+    Activar/desactivar
+</button>
+
+<p>{{ text_color }}</p> -->
+<div>
+  <button class="btn btn-primary" (click)="src='https://images.pexels.com/photos/28918121/pexels-photo-28918121.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'">imgane 1</button>
+  <button class="btn btn-danger" (click)="src='https://images.pexels.com/photos/13149449/pexels-photo-13149449.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'">imagen 2</button>
+</div>
+
+<img [src]="src" alt="" />
